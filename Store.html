@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<link rel="stylesheet" type="text/css" href="Style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Script.js"></script>
+		<link rel="icon" href="Images/icon.jpg"/>
+	<style type="text/css">
+body {
+	height: 200%;
+}
+</style>
+	<title>Ninvento Store</title>
+</head>
+<body>
+
+	<ul id="navbar">
+		<li><a href="index.html" class="nav-item">Home</a></li>
+		<li><a href="#" class="nav-item">Store</a></li>
+		<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdrV21HiWJm3e0772vS6ZagawSvaY_dwXSDoII9s2bIHICZmA/viewform" class="nav-item">FeedBack</a></li>
+	</ul>
+
+	<div id="pA-pic-head"></div>
+
+	<div class="content" id="pB-contentA">
+		<div id="header">
+			<h1 class="title">Ninvento<hr>Click</h1>
+		</div>
+
+		<img src="Images/switch-store-icon.png">
+
+		<div id="pB-desc-section">
+			<p>
+				<br>
+				The Ninvento Click&reg is the newest in smart technology innovation by Ninvento. The Ninvento Click&reg brings you the power to play anytime, anywhere! With new graphics and improved battery life, the newest member to the Ninvento family is sure to blow you away!
+			</p>
+			<br>
+			<div style="float: bottom;">
+				<ul id="price">
+					<li><button id="quan_minus" onclick="sub();">-</button>
+					</li><li><button id="quan">$300</button>
+					</li><li><button id="quan_plus" onclick="add();">+</button></li>
+				</ul>
+				<button id="addtocart">Add To Cart</button>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="subtitle" id="sub1">
+		<h1 class="title">Accesories</h1>
+	</div>
+
+	<div class="subtitle" id="sub2">
+		<h1 class="title">Games</h1>
+	</div>
+
+	<div id="wrapper">
+		<div id="store-accessories">
+	  		<figure>
+		    	<img src="Images/joycons-store.png">
+		    	<figcaption><div><br><br>Joy-Cons</div></figcaption>
+	 		</figure>
+	 		<figure>
+		    	<img src="Images/straps-store.png">
+		    	<figcaption><div><br><br>Joy-con Straps</div></figcaption>
+	  		</figure>
+	 		<figure>
+		    	<img src="Images/controllers-store.png">
+		    	<figcaption><div><br><br>Controlers</div></figcaption>
+		  	</figure>
+		</div>
+
+		<div id="store-games">
+			<figure>
+		    	<img src="Images/zelda-store.png">
+	 		</figure>
+	 		<figure class="figure1" >
+		    	<img src="Images/mario-store.png">
+	  		</figure>
+	 		<figure class="figure1" >
+		    	<img src="Images/12switch-store.png">
+		  	</figure>
+		</div>
+	</div>
+	<div id="pB-pic-foot"></div>
+</body>
+</html>
